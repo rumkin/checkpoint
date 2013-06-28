@@ -1,0 +1,27 @@
+{
+  "name": "js-tests",
+  "version": "0.1.0",
+  "description": "Test of unit tests",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rumkin/js-tests.git"
+  },
+  "dependencies" : {
+    "async_testing" : "*"
+  },
+  "keywords": [
+    "test",
+    "unit"
+  ],
+  "author": "Pasha Rumkin <dev@rumk.in>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "b056dc6a65f2db5b099c7761d648479cb9be51cb",
+  "bugs": {
+    "url": "https://github.com/rumkin/js-tests/issues"
+  }
+}
