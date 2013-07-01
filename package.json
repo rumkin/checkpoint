@@ -1,6 +1,6 @@
 {
   "name": "checkpoint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nodeunit pretty reporter",
   "main": "lib/reporter.js",
   "directories" : {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rumkin/js-tests.git"
+    "url": "git://github.com/rumkin/checkpoint.git"
   },
   "dependencies" : {
     "nodeunit"  : "*",
@@ -23,6 +23,6 @@
   "readmeFilename": "README.md",
   "gitHead": "b056dc6a65f2db5b099c7761d648479cb9be51cb",
   "bugs": {
-    "url": "https://github.com/rumkin/js-tests/issues"
+    "url": "https://github.com/rumkin/checkpoint/issues"
   }
 }

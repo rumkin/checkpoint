@@ -3,10 +3,15 @@ Checkpoint.js
 
 Checkpoint.js is just a pretty output for `nodeunit` package.
 
+Install via npm
+```
+	npm install checkpoint
+```
+
 Install from github:
 ```
-	git clone https://github.com/rumkin/js-tests.git
-	cd js-tests
+	git clone https://github.com/rumkin/checkpoint.git
+	cd checkpoint
 	npm install
 ```
 
