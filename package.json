@@ -1,6 +1,6 @@
 {
   "name": "checkpoint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nodeunit pretty reporter",
   "main": "lib/reporter.js",
   "directories" : {
@@ -11,7 +11,8 @@
     "url": "git://github.com/rumkin/js-tests.git"
   },
   "dependencies" : {
-    "blank-js"      : "*"
+    "nodeunit"  : "*",
+    "blank-js"  : "*"
   },
   "keywords": [
     "test",
