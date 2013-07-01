@@ -1,10 +1,10 @@
 {
-  "name": "test-suit",
+  "name": "checkpoint",
   "version": "0.1.0",
   "description": "Nodeunit pretty reporter",
   "main": "lib/reporter.js",
-  "scripts": {
-    "test": "./bin/nodeunit tests/*"
+  "directories" : {
+    "examples" : "examples"
   },
   "repository": {
     "type": "git",
