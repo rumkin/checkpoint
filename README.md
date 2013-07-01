@@ -1,7 +1,7 @@
-js-tests
+check.js
 ========
 
-Test js unit tests suit.
+Check.js is just a pretty output for `nodeunit` package.
 
 Install from github:
 ```
@@ -12,10 +12,10 @@ Install from github:
 
 Local install:
 ```
-	ln -s node_modules/js-tests/bin/nodeunit testsuit
+	ln -s node_modules/js-tests/bin/checkjs checkjs
 ```
 
 Global install:
 ```
-	sudo ln -s node_modules/js-tests/bin /usr/bin/testsuit
+	sudo ln -s node_modules/js-tests/bin/checkjs /usr/bin/checkjs
 ```
