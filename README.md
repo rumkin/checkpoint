@@ -17,12 +17,12 @@ Install from github:
 
 Local install:
 ```
-	ln -s node_modules/js-tests/bin/checkpoint checkpoint
+	ln -s node_modules/checkpoint/bin/checkpoint checkpoint
 ```
 
 Global install:
 ```
-	sudo ln -s node_modules/js-tests/bin/checkpoint /usr/bin/checkpoint
+	sudo ln -s node_modules/checkpoint/bin/checkpoint /usr/bin/checkpoint
 ```
 
 ### Usage:
