@@ -16,4 +16,6 @@ Local install:
 ```
 
 Global install:
+```
 	sudo ln -s node_modules/js-tests/bin /usr/bin/testsuit
+```
