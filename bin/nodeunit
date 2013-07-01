@@ -1,0 +1,9 @@
+#! /bin/node
+
+var reporter = require('../lib/reporter.js');
+var files    = process.argv.slice(2);
+
+
+reporter.run(files, {
+	errors : 'full'
+});
