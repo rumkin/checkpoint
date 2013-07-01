@@ -3,7 +3,7 @@ Checkpoint.js
 
 Checkpoint.js is just a pretty output for `nodeunit` package.
 
-Install via npm
+Install via npm:
 ```
 	npm install checkpoint
 ```
@@ -30,6 +30,7 @@ Global install:
 Create test file `hello.js` inside `tests` directory. This file should looks like a simple node.js package:
 
 ```javascript
+	// tests/hello.js
 	module.exports = {
 		'hello test' : function(test) {
 			test.ok(true, 'True looks to be true');
