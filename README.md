@@ -1,7 +1,7 @@
-check.js
+Checkpoint.js
 ========
 
-Check.js is just a pretty output for `nodeunit` package.
+Checkpoint.js is just a pretty output for `nodeunit` package.
 
 Install from github:
 ```
@@ -12,10 +12,28 @@ Install from github:
 
 Local install:
 ```
-	ln -s node_modules/js-tests/bin/checkjs checkjs
+	ln -s node_modules/js-tests/bin/checkpoint checkpoint
 ```
 
 Global install:
 ```
-	sudo ln -s node_modules/js-tests/bin/checkjs /usr/bin/checkjs
+	sudo ln -s node_modules/js-tests/bin/checkpoint /usr/bin/checkpoint
+```
+
+### Usage:
+
+Create test file `hello.js` inside `tests` directory. This file should looks like a simple node.js package:
+
+```javascript
+	module.exports = {
+		'hello test' : function(test) {
+			test.ok(true, 'True looks to be true');
+			test.done();
+		}
+	}
+```
+
+Then run tests typing shell command:
+```
+	checkpoint tests/*.js
 ```
