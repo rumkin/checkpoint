@@ -5,24 +5,24 @@ Checkpoint.js is just a pretty output for `nodeunit` package.
 
 Install via npm:
 ```
-	npm install checkpoint
+npm install checkpoint
 ```
 
 Install from github:
 ```
-	git clone https://github.com/rumkin/checkpoint.git
-	cd checkpoint
-	npm install
+git clone https://github.com/rumkin/checkpoint.git
+cd checkpoint
+npm install
 ```
 
 Local install:
 ```
-	ln -s node_modules/checkpoint/bin/checkpoint checkpoint
+ln -s node_modules/checkpoint/bin/checkpoint checkpoint
 ```
 
 Global install:
 ```
-	sudo ln -s node_modules/checkpoint/bin/checkpoint /usr/bin/checkpoint
+sudo ln -s node_modules/checkpoint/bin/checkpoint /usr/bin/checkpoint
 ```
 
 ### Usage:
@@ -30,16 +30,16 @@ Global install:
 Create test file `hello.js` inside `tests` directory. This file should looks like a simple node.js package:
 
 ```javascript
-	// tests/hello.js
-	module.exports = {
-		'hello test' : function(test) {
-			test.ok(true, 'True looks to be true');
-			test.done();
-		}
+// tests/hello.js
+module.exports = {
+	'hello test' : function(test) {
+		test.ok(true, 'True looks to be true');
+		test.done();
 	}
+}
 ```
 
 Then run tests typing shell command:
 ```
-	checkpoint tests/*.js
+checkpoint tests/*.js
 ```
