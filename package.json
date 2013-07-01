@@ -1,17 +1,17 @@
 {
-  "name": "js-tests",
+  "name": "test-suit",
   "version": "0.1.0",
-  "description": "Test of unit tests",
-  "main": "main.js",
+  "description": "Nodeunit pretty reporter",
+  "main": "lib/reporter.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "./bin/nodeunit tests/*"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/rumkin/js-tests.git"
   },
   "dependencies" : {
-    "async_testing" : "*"
+    "blank-js"      : "*"
   },
   "keywords": [
     "test",
