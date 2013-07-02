@@ -18,6 +18,9 @@
     "test",
     "unit"
   ],
+  "bin" : {
+    "checkpoint" : "bin/checkpoint"
+  },
   "author": "Pasha Rumkin <dev@rumk.in>",
   "license": "BSD",
   "readmeFilename": "README.md",
